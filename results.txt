@@ -1,0 +1,82 @@
+Parallel
+--------
+
+Mix 1
+--------
+1 head worker - 450
+2 head worker - 850
+4 head worker - 1680
+8 head worker - 2800
+
+--------
+Mix 2
+1 head worker - 600
+2 head worker - 1150
+4 head worker - 2050
+8 head worker - 2250
+
+--------
+Mix 3
+1 head worker - 950
+2 head worker - 1800
+4 head worker - 2950
+8 head worker - 5000
+
+--------
+Mix 4
+1 head worker - 2050
+2 head worker - 3700
+4 head worker - 4900
+8 head worker - 3850
+
+--------
+Mix 5
+1 head worker - 320
+2 head worker - 660
+4 head worker - 1300
+8 head worker - 2300
+
+--------
+Mix 6
+--------
+1 head worker - 230
+2 head worker - 450
+4 head worker - 900
+8 head worker - 1650
+
+--------
+Mix 7
+--------
+1 head worker - 250
+2 head worker - 570
+4 head worker - 1150
+8 head worker - 2100
+
+--------
+Mix 8
+--------
+1 head worker - 180
+2 head worker - 360
+4 head worker - 720
+8 head worker - 1170
+
+Serial
+--------
+Mix 1 - 280
+Mix 2 - 400
+Mix 3 - 720
+Mix 4 - 1700
+Mix 5 - 250
+Mix 6 - 150
+Mix 7 - 200
+Mix 8 - 130
+
+Speed Up as function of head worker threads (n = 1, 2, 4, 8)
+Mix 1 - 1.61, 3.03, 6, 10
+Mix 2 - 1.5, 2.875, 5.125, 5.625
+Mix 3 - 1.32, 2.5, 4.10, 6.944
+Mix 4 - 1.20, 2.176, 2.882, 2.265
+Mix 5 - 1.28, 2.64, 5.2, 9.2
+Mix 6 - 1.53, 3, 6, 11
+Mix 7 - 1.25, 2.85, 5.75, 10.5
+Mix 8 - 1.385, 2.769, 5.538, 9
